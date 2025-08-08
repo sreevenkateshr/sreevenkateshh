@@ -33,13 +33,13 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-gray-800 text-lg" />
                 <a href="mailto:your.email@example.com" className="hover:underline">
-                  your.email@example.com
+                  Sreevenkateshr@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-gray-800 text-lg" />
-                <a href="tel:+919876543210" className="hover:underline">
-                  +91 98765 43210
+                <a href="tel:+916374926377" className="hover:underline">
+                  +916374926377
                 </a>
               </div>
             </div>
@@ -52,10 +52,13 @@ export default function Footer() {
         {/* Bottom Links */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <div className="flex gap-6">
-            <a href="#" className="hover:text-gray-800">About</a>
-            <a href="#" className="hover:text-gray-800">Skills</a>
-            <a href="#" className="hover:text-gray-800">Works</a>
-          </div>
+  <a href="#about" className="hover:text-gray-800">About</a>
+  <a href="#skills" className="hover:text-gray-800">Skills</a>
+  <a href="#projects" className="hover:text-gray-800">Projects</a>
+  <a href="#work" className="hover:text-gray-800">Work</a>
+  <a href="#contact" className="hover:text-gray-800">Contact</a>
+</div>
+
           <p className="mt-4 md:mt-0">© 2025 All rights reserved</p>
         </div>
       </div>

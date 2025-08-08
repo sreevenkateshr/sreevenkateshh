@@ -4,22 +4,21 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="bg-gradient-to-b from-[#0a0118] to-[#15022d] text-white py-24" // Increased from py-16 → py-24
+      className="bg-gradient-to-b from-[#0a0118] to-[#15022d] text-white py-24"
     >
-      <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-16"> 
-        {/* Increased gap between image & text */}
+      <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-16">
         
         {/* Left Side - Illustration */}
         <div className="flex-1 flex justify-center">
           <img
             src={aboutPic}
-            alt="About Me Illustration"
+            alt="Illustration representing Sree Venkatesh"
             className="max-w-sm md:max-w-md"
           />
         </div>
 
         {/* Right Side - Text */}
-        <div className="flex-1 space-y-6"> {/* Added vertical spacing between text blocks */}
+        <div className="flex-1 space-y-6">
           <p className="uppercase text-sm text-purple-300 tracking-widest font-poppins">
             Who is Sree Venkatesh
           </p>
@@ -36,7 +35,9 @@ export default function AboutMe() {
             things better.
           </p>
           <a
-            href="#"
+            href="/sreecv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium hover:opacity-90 transition"
           >
             Download My Resume
