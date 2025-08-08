@@ -1,0 +1,64 @@
+import { FaLinkedinIn, FaInstagram, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+
+export default function Footer() {
+  return (
+    <footer id="contact" className="bg-white text-gray-800 py-12">
+      <div className="container mx-auto px-6 max-w-6xl">
+        <div className="flex flex-col md:flex-row justify-between items-start gap-12">
+          {/* Left Side */}
+          <div>
+            <h1 className="text-4xl sm:text-6xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              Sree Venkatesh
+            </h1>
+            <p className="mt-2 text-gray-500">Full-Stack Developer</p>
+
+            {/* Social Icons */}
+            <div className="flex gap-4 mt-4">
+              <a href="#" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+                <FaLinkedinIn className="text-gray-800 text-lg" />
+              </a>
+              <a href="#" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+                <FaInstagram className="text-gray-800 text-lg" />
+              </a>
+            </div>
+          </div>
+
+          {/* Right Side */}
+          <div>
+            <h2 className="text-3xl font-bold text-gray-800">Let's Talk!</h2>
+            <p className="mt-2 text-gray-500 max-w-sm">
+              I am always open to discuss your project, Start saying Hi!
+            </p>
+            <div className="mt-4 space-y-3">
+              <div className="flex items-center gap-3">
+                <FaEnvelope className="text-gray-800 text-lg" />
+                <a href="mailto:your.email@example.com" className="hover:underline">
+                  your.email@example.com
+                </a>
+              </div>
+              <div className="flex items-center gap-3">
+                <FaPhoneAlt className="text-gray-800 text-lg" />
+                <a href="tel:+919876543210" className="hover:underline">
+                  +91 98765 43210
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Divider */}
+        <hr className="my-8 border-gray-300" />
+
+        {/* Bottom Links */}
+        <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+          <div className="flex gap-6">
+            <a href="#" className="hover:text-gray-800">About</a>
+            <a href="#" className="hover:text-gray-800">Skills</a>
+            <a href="#" className="hover:text-gray-800">Works</a>
+          </div>
+          <p className="mt-4 md:mt-0">© 2025 All rights reserved</p>
+        </div>
+      </div>
+    </footer>
+  );
+}

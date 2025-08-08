@@ -1,0 +1,24 @@
+/* index.css or styles.css */
+
+/* 1. Import Google Font FIRST */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* 2. Then import Tailwind */
+@import "tailwindcss";
+
+/* 3. Optional theme overrides */
+@theme {
+  --color-primary: #4f46e5;
+  --breakpoint-lg: 1024px;
+  --font-poppins: "Poppins", sans-serif; /* <-- add your font here */
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  animation: gradientMove 4s ease infinite;
+}
