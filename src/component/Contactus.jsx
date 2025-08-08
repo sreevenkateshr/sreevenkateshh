@@ -14,10 +14,11 @@ export default function Footer() {
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
-              <a href="#" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+              <a href="
+https://www.linkedin.com/in/sree-venkatesh-413085267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
                 <FaLinkedinIn className="text-gray-800 text-lg" />
               </a>
-              <a href="#" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+              <a href="https://www.instagram.com/__.saymyname_?igsh=MWQweWVlajhiOThvOQ==" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
                 <FaInstagram className="text-gray-800 text-lg" />
               </a>
             </div>

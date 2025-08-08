@@ -35,7 +35,8 @@ export default function Hero() {
           </a>
           
           <a
-            href="#"
+            href="
+https://www.linkedin.com/in/sree-venkatesh-413085267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             className="flex items-center gap-2 px-5 py-3 text-sm font-medium rounded-lg border border-gray-400 dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >
             <FaLinkedin className="text-lg text-blue-600" />
@@ -44,7 +45,7 @@ export default function Hero() {
           
           {/* Instagram with proper gradient icon */}
           <a
-            href="#"
+            href="https://www.instagram.com/__.saymyname_?igsh=MWQweWVlajhiOThvOQ=="
             className="flex items-center gap-2 px-5 py-3 text-sm font-medium rounded-lg border border-transparent hover:opacity-90 transition-colors"
             style={{
               background: "linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4)",
@@ -62,7 +63,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="#"
+            href="https://github.com/sreevenkateshr/sreevenkateshh"
             className="flex items-center gap-2 px-5 py-3 text-sm font-medium rounded-lg border border-pink-500 text-pink-500 hover:bg-pink-100 dark:hover:bg-pink-900 transition-colors"
           >
             <FaGithub className="text-lg" />
