@@ -10,7 +10,7 @@ export default function Footer() {
             <h1 className="text-4xl sm:text-6xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               Sree Venkatesh
             </h1>
-            <p className="mt-2 text-gray-500">Full-Stack Developer</p>
+            <p className="mt-2 text-gray-500">Web Developer</p>
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">

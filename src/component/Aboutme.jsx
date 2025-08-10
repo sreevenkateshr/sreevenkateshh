@@ -34,10 +34,11 @@ export default function AboutMe() {
             I'm happiest when exploring, learning, and thinking about how to make
             things better.
           </p>
+          
+          {/* Download Resume Button */}
           <a
-            href="/sreecv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/SREERESUME.pdf" // Place this file in the "public" folder
+            download="Sree_Venkatesh_Resume.pdf"
             className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium hover:opacity-90 transition"
           >
             Download My Resume
