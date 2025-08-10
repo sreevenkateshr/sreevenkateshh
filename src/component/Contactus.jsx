@@ -2,9 +2,13 @@ import { FaLinkedinIn, FaInstagram, FaEnvelope, FaPhoneAlt } from "react-icons/f
 
 export default function Footer() {
   return (
-    <footer id="contact" className="bg-white text-gray-800 py-12">
+    <footer
+      id="contact"
+      className="bg-white text-gray-700 py-12 font-poppins"
+    >
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-start gap-12">
+          
           {/* Left Side */}
           <div>
             <h1 className="text-4xl sm:text-6xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
@@ -14,11 +18,20 @@ export default function Footer() {
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-4">
-              <a href="
-https://www.linkedin.com/in/sree-venkatesh-413085267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+              <a
+                href="https://www.linkedin.com/in/sree-venkatesh-413085267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition"
+              >
                 <FaLinkedinIn className="text-gray-800 text-lg" />
               </a>
-              <a href="https://www.instagram.com/__.saymyname_?igsh=MWQweWVlajhiOThvOQ==" className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+              <a
+                href="https://www.instagram.com/__.saymyname_?igsh=MWQweWVlajhiOThvOQ=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 border border-gray-300 rounded-full hover:bg-gray-100 transition"
+              >
                 <FaInstagram className="text-gray-800 text-lg" />
               </a>
             </div>
@@ -33,14 +46,20 @@ https://www.linkedin.com/in/sree-venkatesh-413085267?utm_source=share&utm_campai
             <div className="mt-4 space-y-3">
               <div className="flex items-center gap-3">
                 <FaEnvelope className="text-gray-800 text-lg" />
-                <a href="mailto:your.email@example.com" className="hover:underline">
+                <a
+                  href="mailto:Sreevenkateshr@gmail.com"
+                  className="hover:underline"
+                >
                   Sreevenkateshr@gmail.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="text-gray-800 text-lg" />
-                <a href="tel:+916374926377" className="hover:underline">
-                  +916374926377
+                <a
+                  href="tel:+916374926377"
+                  className="hover:underline"
+                >
+                  +91 6374926377
                 </a>
               </div>
             </div>
@@ -53,13 +72,12 @@ https://www.linkedin.com/in/sree-venkatesh-413085267?utm_source=share&utm_campai
         {/* Bottom Links */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <div className="flex gap-6">
-  <a href="#about" className="hover:text-gray-800">About</a>
-  <a href="#skills" className="hover:text-gray-800">Skills</a>
-  <a href="#projects" className="hover:text-gray-800">Projects</a>
-  <a href="#work" className="hover:text-gray-800">Work</a>
-  <a href="#contact" className="hover:text-gray-800">Contact</a>
-</div>
-
+            <a href="#about" className="hover:text-gray-800">About</a>
+            <a href="#skills" className="hover:text-gray-800">Skills</a>
+            <a href="#projects" className="hover:text-gray-800">Projects</a>
+            <a href="#work" className="hover:text-gray-800">Work</a>
+            <a href="#contact" className="hover:text-gray-800">Contact</a>
+          </div>
           <p className="mt-4 md:mt-0">© 2025 All rights reserved</p>
         </div>
       </div>

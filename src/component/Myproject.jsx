@@ -21,7 +21,7 @@ export default function Projects() {
         "A React Native + Firebase mobile app for discovering and sharing movie content, with real-time updates and authentication.",
       image: cineImage,
       liveLink: "#",
-      githubLink: "https://github.com/yourusername/cinegram",
+      githubLink: "https://github.com/sreevenkateshr/cinegram",
       side: "right",
     },
     // You can easily add more projects here

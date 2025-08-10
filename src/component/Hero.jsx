@@ -3,7 +3,7 @@ import { SiUpwork } from "react-icons/si";
 
 export default function Hero() {
   return (
-    <section className="bg-white text-black dark:bg-black dark:text-white min-h-[80vh] flex flex-col justify-center px-6 sm:px-12 transition-colors duration-300 font-poppins">
+    <section className="text-black bg-black min-h-[80vh] flex flex-col justify-center px-6 sm:px-12 transition-colors duration-300 font-poppins">
       <div className="container mx-auto max-w-4xl flex flex-col items-center text-center">
         
         {/* Intro */}
@@ -35,17 +35,16 @@ export default function Hero() {
           </a>
           
           <a
-            href="
-https://www.linkedin.com/in/sree-venkatesh-413085267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://www.linkedin.com/in/sree-venkatesh-413085267"
             className="flex items-center gap-2 px-5 py-3 text-sm font-medium rounded-lg border border-gray-400 dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
           >
             <FaLinkedin className="text-lg text-blue-600" />
-            <span>LinkedIn</span>
+            <span className="text-white">LinkedIn</span>
           </a>
           
-          {/* Instagram with proper gradient icon */}
+          {/* Instagram */}
           <a
-            href="https://www.instagram.com/__.saymyname_?igsh=MWQweWVlajhiOThvOQ=="
+            href="https://www.instagram.com/__.saymyname_"
             className="flex items-center gap-2 px-5 py-3 text-sm font-medium rounded-lg border border-transparent hover:opacity-90 transition-colors"
             style={{
               background: "linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4)",

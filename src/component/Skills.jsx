@@ -28,14 +28,14 @@ export default function Skills() {
     { name: "MySQL", icon: <SiMysql className="text-5xl text-[#4479A1]" />, border: "#4479A1" },
     { name: "Git", icon: <FaGit className="text-5xl text-[#F05032]" />, border: "#F05032" },
     { name: "Canva", icon: <SiCanva className="text-5xl text-[#00C4CC]" />, border: "#00C4CC" },
-    { name: "Inkscape", icon: <SiInkscape className="text-5xl text-[#000000]" />, border: "#000000" },
+    // { name: "Inkscape", icon: <SiInkscape className="text-5xl text-[#00C4CC]" />, border: "#000000" },
   ];
 
   return (
     <section id="skills" className="bg-white py-16 dark:bg-black transition-colors duration-300">
       <div className="container mx-auto px-6">
         <h2 className="text-center mb-12">
-          <span className="bg-[#1a1c2f] text-white py-2 px-4 rounded font-bold text-sm tracking-wider">
+          <span className=" text-white py-2 px-4 rounded font-bold text-3xl tracking-wider">
             SKILLS
           </span>
         </h2>
