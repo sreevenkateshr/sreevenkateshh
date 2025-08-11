@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="container mx-auto max-w-4xl flex flex-col items-center text-center">
         
         {/* Intro */}
-        <p className="text-gray-600 dark:text-gray-400 text-sm mb-2 transform transition-transform duration-300 hover:-translate-x-2">
+        <p className="text-white dark:text-gray-400 text-sm mb-2 transform transition-transform duration-300 hover:-translate-x-2">
           Hey, I'm
         </p>
 
@@ -17,12 +17,12 @@ export default function Hero() {
         </h1>
 
         {/* Description */}
-        <p className="text-gray-600 dark:text-gray-400 mt-4 text-sm sm:text-base leading-relaxed text-justify">
-          I specialize in creating dynamic and engaging user experiences with a strong foundation in HTML, CSS, and JavaScript.
-          My expertise extends to cutting-edge frameworks and libraries, enabling me to implement interactive features that
-          enhance usability and functionality. Additionally, I bring valuable experience working with content management
-          systems like WordPress, allowing me to build and customize websites that are both visually appealing and easy to manage.
-        </p>
+     <p className="text-white dark:text-gray-400 mt-4 text-sm sm:text-base leading-relaxed text-justify font-poppins">
+  I specialize in creating dynamic and engaging user experiences with a strong foundation in HTML, CSS, and JavaScript.
+  My expertise extends to cutting-edge frameworks and libraries, enabling me to implement interactive features that
+  enhance usability and functionality. Additionally, I bring valuable experience working with content management
+  systems like WordPress, allowing me to build and customize websites that are both visually appealing and easy to manage.
+</p>
 
         {/* Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mt-8">

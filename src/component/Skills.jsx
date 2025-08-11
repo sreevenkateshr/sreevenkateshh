@@ -7,15 +7,25 @@ import {
   FaNodeJs,
   FaGit,
 } from "react-icons/fa";
-import { 
-  SiTailwindcss, 
-  SiVite, 
-  SiMysql, 
-  SiCanva, 
-  SiInkscape 
+import {
+  SiTailwindcss,
+  SiVite,
+  SiMysql,
+  SiCanva,
+  SiFigma,
 } from "react-icons/si";
+import { useEffect } from "react";
 
 export default function Skills() {
+  // Apply Poppins font
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.href = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap";
+    link.rel = "stylesheet";
+    document.head.appendChild(link);
+    document.body.style.fontFamily = "'Poppins', sans-serif";
+  }, []);
+
   const skills = [
     { name: "HTML", icon: <FaHtml5 className="text-5xl text-[#E44D26]" />, border: "#E44D26" },
     { name: "CSS", icon: <FaCss3Alt className="text-5xl text-[#264DE4]" />, border: "#264DE4" },
@@ -28,24 +38,25 @@ export default function Skills() {
     { name: "MySQL", icon: <SiMysql className="text-5xl text-[#4479A1]" />, border: "#4479A1" },
     { name: "Git", icon: <FaGit className="text-5xl text-[#F05032]" />, border: "#F05032" },
     { name: "Canva", icon: <SiCanva className="text-5xl text-[#00C4CC]" />, border: "#00C4CC" },
-    // { name: "Inkscape", icon: <SiInkscape className="text-5xl text-[#00C4CC]" />, border: "#000000" },
+    { name: "Figma", icon: <SiFigma className="text-5xl text-[#F24E1E]" />, border: "#F24E1E" },
   ];
 
   return (
-    <section id="skills" className="bg-white py-16 dark:bg-black transition-colors duration-300">
+    <section id="skills" className="bg-black py-24 dark:bg-black transition-colors duration-300">
       <div className="container mx-auto px-6">
-        <h2 className="text-center mb-12">
-          <span className=" text-white py-2 px-4 rounded font-bold text-3xl tracking-wider">
-            SKILLS
+        <h2 className="text-center mb-16">
+          <span className="text-white py-4 px-6 rounded font-bold text-3xl tracking-wider">
+            Things I’m Good At
           </span>
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 place-items-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-10 place-items-center">
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col items-center gap-3 rounded-lg p-6 w-36 hover:scale-105 transition-transform bg-white dark:bg-[#111]"
+              className="flex flex-col items-center gap-3 rounded-lg p-6 w-36 hover:scale-105 transition-transform bg-black dark:bg-[#111]"
               style={{
                 border: `2px solid ${skill.border}`,
+                fontFamily: "'Poppins', sans-serif",
               }}
             >
               <div>{skill.icon}</div>

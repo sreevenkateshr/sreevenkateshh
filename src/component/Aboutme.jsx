@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="bg-gradient-to-b from-[#0a0118] to-[#15022d] text-white py-24"
+      className="bg-gradient-to-b from-[#0a0118] to-[#15022d] text-white py-24 font-poppins"
     >
       <div className="container mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-16">
         
@@ -19,7 +19,7 @@ export default function AboutMe() {
 
         {/* Right Side - Text */}
         <div className="flex-1 space-y-6">
-          <p className="uppercase text-sm text-purple-300 tracking-widest font-poppins">
+          <p className="uppercase text-sm text-purple-300 tracking-widest">
             Who is Sree Venkatesh
           </p>
           <h2 className="text-3xl md:text-4xl font-bold">A Bit About Me</h2>
@@ -37,7 +37,7 @@ export default function AboutMe() {
           
           {/* Download Resume Button */}
           <a
-            href="SREERESUME.pdf" // Place this file in the "public" folder
+            href="SREERESUME.pdf"
             download="SREERESUME.pdf"
             className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium hover:opacity-90 transition"
           >

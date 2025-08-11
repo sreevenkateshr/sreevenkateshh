@@ -11,7 +11,7 @@ export default function Projects() {
         "A professional photography portfolio website showcasing high-quality work with a modern and responsive design.",
       image: pbImage,
       liveLink: "https://paperboatphotography.in",
-      githubLink: "https://github.com/yourusername/paperboat",
+      githubLink: "https://github.com/sreevenkateshr/paperboatphotography.in",
       side: "left",
     },
     {
@@ -24,16 +24,18 @@ export default function Projects() {
       githubLink: "https://github.com/sreevenkateshr/cinegram",
       side: "right",
     },
-    // You can easily add more projects here
   ];
 
   return (
-    <section id="projects" className="relative bg-gradient-to-b from-[#0a0118] to-[#15022d] py-20 text-white overflow-hidden">
+    <section
+      id="projects"
+      className="relative bg-gradient-to-b from-[#0a0118] to-[#15022d] py-14 text-white overflow-hidden font-poppins"
+    >
       <div className="container mx-auto px-6 max-w-6xl">
         {projects.map((project, index) => (
           <div
             key={index}
-            className={`grid grid-cols-1 md:grid-cols-2 gap-10 items-center mb-20 ${
+            className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-14 ${
               project.side === "right" ? "md:[direction:rtl]" : ""
             }`}
           >
@@ -42,7 +44,7 @@ export default function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="max-w-[280px] md:max-w-[320px] object-contain hover:scale-105 transition-transform duration-300 ease-in-out"
+                className="max-w-[260px] md:max-w-[300px] object-contain hover:scale-105 transition-transform duration-300 ease-in-out"
               />
             </div>
 
@@ -52,16 +54,16 @@ export default function Projects() {
                 project.side === "right" ? "md:[direction:ltr]" : ""
               }`}
             >
-              <p className="text-purple-400 font-semibold tracking-wide uppercase mb-2">
+              <p className="text-purple-400 font-semibold tracking-wide uppercase mb-1">
                 {project.subtitle}
               </p>
-              <h3 className="text-3xl font-bold mb-4">{project.title}</h3>
-              <p className="text-gray-300 leading-relaxed mb-6">
+              <h3 className="text-2xl md:text-3xl font-bold mb-3">{project.title}</h3>
+              <p className="text-gray-300 leading-relaxed mb-5">
                 {project.description}
               </p>
 
               {/* Buttons */}
-              <div className="flex justify-center md:justify-start items-center gap-5">
+              <div className="flex justify-center md:justify-start items-center gap-4">
                 {project.liveLink !== "#" && (
                   <a
                     href={project.liveLink}

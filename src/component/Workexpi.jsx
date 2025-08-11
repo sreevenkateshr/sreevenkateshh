@@ -21,7 +21,10 @@ export default function WorkExperience() {
   ];
 
   return (
-    <section id="work" className="bg-white text-black py-16">
+    <section
+      id="work"
+      className="bg-white text-black py-16 font-poppins"
+    >
       <div className="container mx-auto px-6">
         {/* Heading */}
         <h2 className="text-5xl font-bold mb-20">Works</h2>
@@ -74,7 +77,9 @@ export default function WorkExperience() {
                   {/* central dot */}
                   <div
                     className={`w-5 h-5 rounded-full z-10 border-2 ${
-                      exp.isPresent ? "bg-purple-500 border-white" : "bg-gray-400 border-white"
+                      exp.isPresent
+                        ? "bg-purple-500 border-white"
+                        : "bg-gray-400 border-white"
                     }`}
                   />
                 </div>
