@@ -38,7 +38,7 @@ export default function AboutMe() {
           {/* Download Resume Button */}
           <a
             href="/SREERESUME.pdf" // Place this file in the "public" folder
-            download="Sree_Venkatesh_Resume.pdf"
+            download="SREERESUME.pdf"
             className="inline-block px-6 py-3 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium hover:opacity-90 transition"
           >
             Download My Resume
